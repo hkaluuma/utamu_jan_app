@@ -14,10 +14,18 @@ public class MainActivity extends AppCompatActivity {
         //we can write our code below
         String Student;
         int number;
+
+         /* Instantiation */
+        Cat catobj = new Cat();
+        //use object to access methods of another class
+        String gotmethod = catobj.makeNoise();
+        System.out.println("gotmethod");
+        System.out.println("This is the count: "+count());
     }
     //our method count
     private int count(){
         int num;
         num = 10;
-        return num; }
+        return num;
+    }
 }
