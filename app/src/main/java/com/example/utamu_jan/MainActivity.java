@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         String Student;
         int number;
 
-         /* Instantiation */
+         /* Instantiation /creating an objec */
         Cat catobj = new Cat();
         //use object to access methods of another class
         String gotmethod = catobj.makeNoise();
