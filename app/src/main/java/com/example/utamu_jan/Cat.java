@@ -1,7 +1,7 @@
 package com.example.utamu_jan;
 public class Cat {
     /* declaring instance variables*/
-    public String cat_name;
+    public String cat_name = "Lion";
     protected int weight;
     private String habitant;
     String diet, physicalAppearance;
@@ -17,10 +17,9 @@ public class Cat {
         return cat_name;
     }
 
-    public int add (){
-        int number = 10;
-        int sum = number+=1;
-        sum = sum +1;
+    public int addwalk (int a, int b){
+        int sum;
+        sum = a + b;
         return sum;
     }
 
